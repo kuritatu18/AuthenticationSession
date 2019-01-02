@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // generate customzURL link
-        let url = URL(string: "http://ux.nu/uS21P")!
+        let url = URL(string: "http://ux.nu/EikGl")!
         
         authenticationSession = AuthenticationSession.init(url: url, callbackURLScheme: nil, completionHandler: { [weak self] (callBack: URL?, error: Error?) in
             self?.getAuthorizationToken(callBack: callBack, error: error)
